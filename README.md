@@ -1,1 +1,63 @@
-# Game-Repack-Repo
+# GingerDev's Game Repack Repo
+
+![Platform](https://img.shields.io/badge/platform-Windows-1f6feb?style=for-the-badge)
+![Framework](https://img.shields.io/badge/.NET-9.0-512bd4?style=for-the-badge)
+![Language](https://img.shields.io/badge/VB.NET-WinForms-0f766e?style=for-the-badge)
+![Status](https://img.shields.io/badge/status-active-22c55e?style=for-the-badge)
+
+**GingerDev's Game Repack Repo** is a polished VB.NET Windows Forms desktop app for browsing a local, searchable game repack index with covers, sizes, descriptions, repack notes, sorting, paging, update checks, and magnet actions.
+
+It is built as a standalone Windows app with a custom dark UI, animated splash screen, local caching, and a compact details view designed for quick browsing.
+
+![GingerDev's Game Repack Repo preview](docs/screenshots/main-window.png)
+
+## Highlights
+
+- Custom borderless dark theme with branded chrome and controls.
+- Game cards with cover art, title, description preview, original size, and repack size.
+- Details window with cover image, game description, repack features, and magnet actions.
+- Search across title, date, sizes, description, and repack features.
+- Sort by date, title, original size, or repack size.
+- 20-result paging for cleaner browsing.
+- First-run library build with a friendly animated splash screen.
+- Loads from `list.txt` on startup when available.
+- Manual update checks append new games without replacing the whole local list.
+- Local cover cache for faster repeat browsing.
+
+## What It Stores
+
+The app keeps runtime data beside the executable:
+
+| File or folder | Purpose |
+| --- | --- |
+| `list.txt` | Local game index used on startup. |
+| `list.backup.txt` | Safety backup before list rewrites/appends. |
+| `app.settings` | Window size, sort state, and search preferences. |
+| `image-cache\` | Cached cover images for faster loading. |
+
+## First Run
+
+On first launch, if `list.txt` does not exist, the app builds a local library from the configured source.
+
+This can take a while because it scans the archive and saves the usable entries locally. Once `list.txt` exists, future launches load from the local file first and then check for new games.
+
+## Requirements
+
+For running the standalone publish:
+
+- Windows x64
+- .NET 9 SDK
+
+The main executable is:
+
+```text
+GingerDev's Game Repack Repo.exe
+```
+
+The app will build `list.txt` on first run.
+
+## Disclaimer
+
+This project is an indexing/browser tool. It does not host game files, cracks, installers, or torrents. Any external links or magnet links are sourced from third-party pages and are outside this repository.
+
+Use responsibly and follow the laws that apply in your location.
