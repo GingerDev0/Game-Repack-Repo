@@ -53,7 +53,11 @@
   </tr>
   <tr>
     <td><strong>Local Library</strong></td>
-    <td>Loads from <code>list.txt</code> on startup and can append new games during update checks.</td>
+    <td>Loads from the AppData <code>list.txt</code> on startup and can append new games during update checks.</td>
+  </tr>
+  <tr>
+    <td><strong>Version Check</strong></td>
+    <td>Checks GitHub on startup and can open the repository when a newer version is available.</td>
   </tr>
   <tr>
     <td><strong>Standalone Release</strong></td>
@@ -63,7 +67,9 @@
 
 <h2>Runtime Files</h2>
 
-<p>The app keeps its local data beside the executable:</p>
+<p>The app keeps its local data in AppData:</p>
+
+<pre><code>%APPDATA%\GingerDev\Game Repack Repo\</code></pre>
 
 <table>
   <thead>
@@ -96,10 +102,20 @@
   The animated splash GIF is embedded into the app, so no external <code>Assets</code> folder is required for the published executable.
 </blockquote>
 
+<h2>Update Check</h2>
+
+<p>
+  On startup, the app checks <code>etc/version.txt</code> from the GitHub repository. If a newer version is available, it shows an update message and can open the repository page.
+</p>
+
+<p>
+  If GitHub is unreachable, the version check is skipped and the app opens normally.
+</p>
+
 <h2>First Run</h2>
 
 <p>
-  If <code>list.txt</code> does not exist, the app builds a local library on first launch.
+  If <code>list.txt</code> does not exist in AppData, the app builds a local library on first launch.
 </p>
 
 <p>
@@ -120,7 +136,7 @@
 </table>
 
 <p>
-  Run the executable to start the app. On first launch, it will create <code>list.txt</code> if one is not already included.
+  Run the executable to start the app. On first launch, it will create <code>list.txt</code> in AppData if one does not already exist.
 </p>
 
 <h2>License</h2>
