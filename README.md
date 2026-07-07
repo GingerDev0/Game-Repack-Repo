@@ -1,73 +1,85 @@
 <h1 align="center">GingerDev's Game Repack Repo</h1>
 
 <p align="center">
+  <strong>A polished Windows desktop index for browsing game repacks with covers, search, paging, details, and magnet actions.</strong>
+</p>
+
+<p align="center">
   <img src="https://img.shields.io/badge/Platform-Windows-1f6feb?style=for-the-badge&amp;logo=windows&amp;logoColor=white" alt="Platform">
   <img src="https://img.shields.io/badge/Framework-.NET%209.0-512bd4?style=for-the-badge&amp;logo=dotnet&amp;logoColor=white" alt="Framework">
   <img src="https://img.shields.io/badge/Language-VB.NET%20WinForms-0f766e?style=for-the-badge&amp;logo=visualstudio&amp;logoColor=white" alt="Language">
-  <img src="https://img.shields.io/badge/Status-Active-22c55e?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Status">
-</p>
-
-<p>
-  <strong>GingerDev's Game Repack Repo</strong> is a polished VB.NET Windows Forms desktop app for browsing a local, searchable game repack index with covers, sizes, descriptions, repack notes, sorting, paging, update checks, and magnet actions.
-</p>
-
-<p>
-  It is built as a standalone Windows app with a custom dark UI, animated splash screen, local caching, and a compact details view designed for quick browsing.
+  <img src="https://img.shields.io/badge/License-GPL--3.0-22c55e?style=for-the-badge&amp;logo=gnu&amp;logoColor=white" alt="License">
 </p>
 
 <p align="center">
-  <img src="docs/screenshots/main.png" alt="GingerDev's Game Repack Repo preview">
+  <img src="docs/screenshots/main.png" alt="GingerDev's Game Repack Repo main window">
 </p>
-
-<h2>Screenshots</h2>
-
-<h3>Game Details</h3>
 
 <p align="center">
-  <img src="docs/screenshots/details.png" alt="Game details">
+  GingerDev's Game Repack Repo is a standalone VB.NET Windows Forms app with a custom dark UI, animated first-run splash screen, local caching, cover art, sortable game cards, and a compact details view.
 </p>
 
-<h3>First Launch</h3>
+<hr>
 
-<p align="center">
-  <img src="docs/screenshots/first_launch.png" alt="First launch">
-</p>
+<h2>Preview</h2>
+
+<table>
+  <tr>
+    <td width="50%">
+      <h3 align="center">Game Details</h3>
+      <img src="docs/screenshots/details.png" alt="Game details">
+    </td>
+    <td width="50%">
+      <h3 align="center">First Launch</h3>
+      <img src="docs/screenshots/first_launch.png" alt="First launch">
+    </td>
+  </tr>
+</table>
 
 <h2>Highlights</h2>
 
-<ul>
-  <li>Custom borderless dark theme with branded chrome and controls.</li>
-  <li>Game cards with cover art, title, description preview, original size, and repack size.</li>
-  <li>Details window with cover image, game description, repack features, and magnet actions.</li>
-  <li>Search across title, date, sizes, description, and repack features.</li>
-  <li>Sort by date, title, original size, or repack size.</li>
-  <li>20-result paging for cleaner browsing.</li>
-  <li>First-run library build with a friendly animated splash screen.</li>
-  <li>Loads from <code>list.txt</code> on startup when available.</li>
-  <li>Manual update checks append new games without replacing the whole local list.</li>
-  <li>Local cover cache for faster repeat browsing.</li>
-  <li>Standalone publish option for a single shareable <code>.exe</code>.</li>
-</ul>
+<table>
+  <tr>
+    <td><strong>Custom UI</strong></td>
+    <td>Borderless dark theme with branded chrome, custom controls, and polished game cards.</td>
+  </tr>
+  <tr>
+    <td><strong>Fast Browsing</strong></td>
+    <td>Search, sorting, 20-result paging, and local cover caching for repeat launches.</td>
+  </tr>
+  <tr>
+    <td><strong>Rich Details</strong></td>
+    <td>Cover image, title, original size, repack size, game description, repack features, and magnet actions.</td>
+  </tr>
+  <tr>
+    <td><strong>Local Library</strong></td>
+    <td>Loads from <code>list.txt</code> on startup and can append new games during update checks.</td>
+  </tr>
+  <tr>
+    <td><strong>Standalone Release</strong></td>
+    <td>The published build is designed to be shared as a single Windows executable.</td>
+  </tr>
+</table>
 
-<h2>What It Stores</h2>
+<h2>Runtime Files</h2>
 
-<p>The app keeps runtime data beside the executable:</p>
+<p>The app keeps its local data beside the executable:</p>
 
 <table>
   <thead>
     <tr>
       <th>File or folder</th>
-      <th>Purpose</th>
+      <th>What it does</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td><code>list.txt</code></td>
-      <td>Local game index used on startup.</td>
+      <td>Local game index loaded on startup.</td>
     </tr>
     <tr>
       <td><code>list.backup.txt</code></td>
-      <td>Safety backup before list rewrites/appends.</td>
+      <td>Backup created before list rewrites or appends.</td>
     </tr>
     <tr>
       <td><code>app.settings</code></td>
@@ -75,34 +87,37 @@
     </tr>
     <tr>
       <td><code>image-cache\</code></td>
-      <td>Cached cover images for faster loading.</td>
+      <td>Cached cover images for faster repeat browsing.</td>
     </tr>
   </tbody>
 </table>
 
-<p>
-  The animated splash GIF is embedded into the app, so no external <code>Assets</code> folder is required for the published exe.
-</p>
+<blockquote>
+  The animated splash GIF is embedded into the app, so no external <code>Assets</code> folder is required for the published executable.
+</blockquote>
 
 <h2>First Run</h2>
 
 <p>
-  On first launch, if <code>list.txt</code> does not exist, the app builds a local library from the configured source.
+  If <code>list.txt</code> does not exist, the app builds a local library on first launch.
 </p>
 
 <p>
-  This can take a while because it scans the archive and saves the usable entries locally. Once <code>list.txt</code> exists, future launches load from the local file first and then check for new games.
+  The first build scans the archive and saves usable entries locally. It can take a while, but future launches load from <code>list.txt</code> first and then check for new games.
 </p>
-
-<h2>Requirements</h2>
-
-<ul>
-  <li>Windows x64</li>
-</ul>
 
 <h2>Download</h2>
 
-<pre><code>GingerDev's Game Repack Repo.exe</code></pre>
+<table>
+  <tr>
+    <td><strong>Supported OS</strong></td>
+    <td>Windows x64</td>
+  </tr>
+  <tr>
+    <td><strong>Executable</strong></td>
+    <td><code>GingerDev's Game Repack Repo.exe</code></td>
+  </tr>
+</table>
 
 <p>
   Run the executable to start the app. On first launch, it will create <code>list.txt</code> if one is not already included.
