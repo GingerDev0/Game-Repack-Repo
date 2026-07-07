@@ -1,9 +1,11 @@
 # GingerDev's Game Repack Repo
 
-![Platform](https://img.shields.io/badge/platform-Windows-1f6feb?style=for-the-badge)
-![Framework](https://img.shields.io/badge/.NET-9.0-512bd4?style=for-the-badge)
-![Language](https://img.shields.io/badge/VB.NET-WinForms-0f766e?style=for-the-badge)
-![Status](https://img.shields.io/badge/status-active-22c55e?style=for-the-badge)
+<p align="center">
+  <img src="https://img.shields.io/badge/Platform-Windows-1f6feb?style=for-the-badge&logo=windows&logoColor=white" alt="Platform">
+  <img src="https://img.shields.io/badge/Framework-.NET%209.0-512bd4?style=for-the-badge&logo=dotnet&logoColor=white" alt="Framework">
+  <img src="https://img.shields.io/badge/Language-VB.NET%20WinForms-0f766e?style=for-the-badge&logo=visualstudio&logoColor=white" alt="Language">
+  <img src="https://img.shields.io/badge/Status-Active-22c55e?style=for-the-badge&logo=github&logoColor=white" alt="Status">
+</p>
 
 **GingerDev's Game Repack Repo** is a polished VB.NET Windows Forms desktop app for browsing a local, searchable game repack index with covers, sizes, descriptions, repack notes, sorting, paging, update checks, and magnet actions.
 
