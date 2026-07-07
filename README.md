@@ -66,22 +66,9 @@ GingerDev's Game Repack Repo.exe
 
 Run the executable to start the app. On first launch, it will create `list.txt` if one is not already included.
 
-## Optional Included Files
+## License
 
-If you want users to start with a prebuilt local index, include:
-
-```text
-GingerDev's Game Repack Repo.exe
-list.txt
-```
-
-If you want the smallest fresh release, share only:
-
-```text
-GingerDev's Game Repack Repo.exe
-```
-
-The app will build `list.txt` on first run.
+This project is licensed under the [GPL-3.0 license](https://github.com/GingerDev0/Game-Repack-Repo/tree/main#GPL-3.0-1-ov-file).
 
 ## Disclaimer
 
