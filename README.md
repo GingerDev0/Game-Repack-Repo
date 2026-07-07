@@ -9,7 +9,17 @@
 
 It is built as a standalone Windows app with a custom dark UI, animated splash screen, local caching, and a compact details view designed for quick browsing.
 
-![GingerDev's Game Repack Repo preview](docs/screenshots/main-window.png)
+![GingerDev's Game Repack Repo preview](docs/screenshots/main.png)
+
+## Screenshots
+
+### Game Details
+
+![Game details](docs/screenshots/details.png)
+
+### First Launch
+
+![First launch](docs/screenshots/first_launch.png)
 
 ## Highlights
 
@@ -23,6 +33,7 @@ It is built as a standalone Windows app with a custom dark UI, animated splash s
 - Loads from `list.txt` on startup when available.
 - Manual update checks append new games without replacing the whole local list.
 - Local cover cache for faster repeat browsing.
+- Standalone publish option for a single shareable `.exe`.
 
 ## What It Stores
 
@@ -35,6 +46,8 @@ The app keeps runtime data beside the executable:
 | `app.settings` | Window size, sort state, and search preferences. |
 | `image-cache\` | Cached cover images for faster loading. |
 
+The animated splash GIF is embedded into the app, so no external `Assets` folder is required for the published exe.
+
 ## First Run
 
 On first launch, if `list.txt` does not exist, the app builds a local library from the configured source.
@@ -43,12 +56,26 @@ This can take a while because it scans the archive and saves the usable entries 
 
 ## Requirements
 
-For running the standalone publish:
-
 - Windows x64
-- .NET 9 SDK
 
-The main executable is:
+## Download
+
+```text
+GingerDev's Game Repack Repo.exe
+```
+
+Run the executable to start the app. On first launch, it will create `list.txt` if one is not already included.
+
+## Optional Included Files
+
+If you want users to start with a prebuilt local index, include:
+
+```text
+GingerDev's Game Repack Repo.exe
+list.txt
+```
+
+If you want the smallest fresh release, share only:
 
 ```text
 GingerDev's Game Repack Repo.exe
