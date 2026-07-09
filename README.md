@@ -8,6 +8,7 @@
   <img src="https://img.shields.io/badge/Platform-Windows-1f6feb?style=for-the-badge&amp;logo=windows&amp;logoColor=white" alt="Platform">
   <img src="https://img.shields.io/badge/Framework-.NET%209.0-512bd4?style=for-the-badge&amp;logo=dotnet&amp;logoColor=white" alt="Framework">
   <img src="https://img.shields.io/badge/Language-VB.NET%20WinForms-0f766e?style=for-the-badge&amp;logo=visualstudio&amp;logoColor=white" alt="Language">
+  <img src="https://img.shields.io/badge/Version-1.0.3-22c55e?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Version">
   <img src="https://img.shields.io/badge/License-GPL--3.0-22c55e?style=for-the-badge&amp;logo=gnu&amp;logoColor=white" alt="License">
 </p>
 
@@ -17,6 +18,12 @@
 
 <p align="center">
   GingerDev's Game Repack Repo is a standalone VB.NET Windows Forms app with a custom dark UI, animated first-run splash screen, local caching, cover art, sortable game cards, and a compact details view.
+</p>
+
+<p align="center">
+  <a href="https://raw.githubusercontent.com/GingerDev0/Game-Repack-Repo/main/GingerDev_Game_Repack_Repo_Setup_v1.0.3_With_Runtime.exe">
+    <strong>Download v1.0.3 Installer</strong>
+  </a>
 </p>
 
 <hr>
@@ -57,11 +64,11 @@
   </tr>
   <tr>
     <td><strong>Version Check</strong></td>
-    <td>Includes a lightweight updater that checks GitHub before launching and can pull down a newer app executable.</td>
+    <td>Includes a lightweight updater. Opening the main app hands off to the updater, checks GitHub, installs newer builds when available, and then reopens the app.</td>
   </tr>
   <tr>
     <td><strong>Standalone Release</strong></td>
-    <td>The published build is designed to be shared as a single Windows executable.</td>
+    <td>The bundled installer includes the .NET 9 Desktop Runtime, the main app, and the updater.</td>
   </tr>
 </table>
 
@@ -105,7 +112,11 @@
 <h2>Update Check</h2>
 
 <p>
-  Launch <code>GingerDev's Game Repack Repo Updater.exe</code> to start the app. The updater checks <code>etc/update.json</code> from GitHub, compares the installed version, downloads the newer executable when available, swaps it in safely, and then launches the main app.
+  Launch <code>GingerDev's Game Repack Repo.exe</code> normally. If the updater is installed beside it, the main app immediately hands off to <code>GingerDev's Game Repack Repo Updater.exe</code> and closes.
+</p>
+
+<p>
+  The updater checks <code>etc/update.json</code> from GitHub, compares the installed version, downloads the newer executable when available, swaps it in safely, then launches the main app again and closes itself.
 </p>
 
 <p>
@@ -130,13 +141,21 @@
     <td>Windows x64</td>
   </tr>
   <tr>
-    <td><strong>Executable</strong></td>
-    <td><code>GingerDev's Game Repack Repo Updater.exe</code></td>
+    <td><strong>Current version</strong></td>
+    <td><code>1.0.3</code></td>
+  </tr>
+  <tr>
+    <td><strong>Recommended download</strong></td>
+    <td><a href="https://raw.githubusercontent.com/GingerDev0/Game-Repack-Repo/main/GingerDev_Game_Repack_Repo_Setup_v1.0.3_With_Runtime.exe"><code>GingerDev_Game_Repack_Repo_Setup_v1.0.3_With_Runtime.exe</code></a></td>
+  </tr>
+  <tr>
+    <td><strong>Installer SHA-256</strong></td>
+    <td><code>01D04ACFC83196C313A99596E3103FAE89EC9C07BD271058FE23763AB33CE0AB</code></td>
   </tr>
 </table>
 
 <p>
-  Run the updater executable to start the app with update checks. The main app executable is kept beside it and is launched automatically after the update check completes.
+  The installer includes the .NET 9 Desktop Runtime. After installation, open the app normally from the Start Menu or desktop shortcut.
 </p>
 
 <h2>License</h2>
