@@ -109,6 +109,31 @@
   The animated splash GIF is embedded into the app, so no external <code>Assets</code> folder is required for the published executable.
 </blockquote>
 
+<h2>What The Repo Files Do</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>File</th>
+      <th>Purpose</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://raw.githubusercontent.com/GingerDev0/Game-Repack-Repo/main/GingerDev_Game_Repack_Repo_Setup_v1.0.5_With_Runtime.exe"><code>GingerDev_Game_Repack_Repo_Setup_v1.0.5_With_Runtime.exe</code></a></td>
+      <td>Recommended installer. Includes the .NET 9 Desktop Runtime, installs the main app and updater, and enables automatic update checks.</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/GingerDev0/Game-Repack-Repo/blob/main/GingerDev's%20Game%20Repack%20Repo.exe"><code>GingerDev's Game Repack Repo.exe</code></a></td>
+      <td>Portable main app only. This runs without the updater beside it, so it will not auto-update. If you download only this file, you must manually replace it when a new version is released.</td>
+    </tr>
+    <tr>
+      <td><code>GingerDev's Game Repack Repo Updater.exe</code></td>
+      <td>Updater helper used by the installed app. It checks GitHub, verifies the downloaded main executable with SHA-256, replaces the old executable, and then launches the app.</td>
+    </tr>
+  </tbody>
+</table>
+
 <h2>Update Check</h2>
 
 <p>
