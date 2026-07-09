@@ -21,8 +21,8 @@
 </p>
 
 <p align="center">
-  <a href="https://raw.githubusercontent.com/GingerDev0/Game-Repack-Repo/main/GingerDev_Game_Repack_Repo_Setup_v1.0.3_With_Runtime.exe">
-    <strong>Download v1.0.3 Installer</strong>
+  <a href="https://raw.githubusercontent.com/GingerDev0/Game-Repack-Repo/main/GingerDev_Game_Repack_Repo_Setup_v1.0.5_With_Runtime.exe">
+    <strong>Download v1.0.5 Installer</strong>
   </a>
 </p>
 
