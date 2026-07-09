@@ -142,11 +142,11 @@
   </tr>
   <tr>
     <td><strong>Current version</strong></td>
-    <td><code>1.0.3</code></td>
+    <td><code>1.0.6</code></td>
   </tr>
   <tr>
     <td><strong>Recommended download</strong></td>
-    <td><a href="https://raw.githubusercontent.com/GingerDev0/Game-Repack-Repo/main/GingerDev_Game_Repack_Repo_Setup_v1.0.3_With_Runtime.exe"><code>GingerDev_Game_Repack_Repo_Setup_v1.0.3_With_Runtime.exe</code></a></td>
+    <td><a href="https://raw.githubusercontent.com/GingerDev0/Game-Repack-Repo/main/GingerDev_Game_Repack_Repo_Setup_v1.0.5_With_Runtime.exe"><code>GingerDev_Game_Repack_Repo_Setup_v1.0.5_With_Runtime.exe</code></a></td>
   </tr>
   <tr>
     <td><strong>Installer SHA-256</strong></td>
