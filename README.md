@@ -57,7 +57,7 @@
   </tr>
   <tr>
     <td><strong>Version Check</strong></td>
-    <td>Checks GitHub on startup and can open the repository when a newer version is available.</td>
+    <td>Includes a lightweight updater that checks GitHub before launching and can pull down a newer app executable.</td>
   </tr>
   <tr>
     <td><strong>Standalone Release</strong></td>
@@ -105,11 +105,11 @@
 <h2>Update Check</h2>
 
 <p>
-  On startup, the app checks <code>etc/version.txt</code> from the GitHub repository. If a newer version is available, it shows an update message and can open the repository page.
+  Launch <code>GingerDev's Game Repack Repo Updater.exe</code> to start the app. The updater checks <code>etc/update.json</code> from GitHub, compares the installed version, downloads the newer executable when available, swaps it in safely, and then launches the main app.
 </p>
 
 <p>
-  If GitHub is unreachable, the version check is skipped and the app opens normally.
+  If GitHub is unreachable or no update is available, the updater simply opens the installed version.
 </p>
 
 <h2>First Run</h2>
@@ -131,12 +131,12 @@
   </tr>
   <tr>
     <td><strong>Executable</strong></td>
-    <td><code>GingerDev's Game Repack Repo.exe</code></td>
+    <td><code>GingerDev's Game Repack Repo Updater.exe</code></td>
   </tr>
 </table>
 
 <p>
-  Run the executable to start the app. On first launch, it will create <code>list.txt</code> in AppData if one does not already exist.
+  Run the updater executable to start the app with update checks. The main app executable is kept beside it and is launched automatically after the update check completes.
 </p>
 
 <h2>License</h2>
