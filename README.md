@@ -8,7 +8,7 @@
   <img src="https://img.shields.io/badge/Platform-Windows-1f6feb?style=for-the-badge&amp;logo=windows&amp;logoColor=white" alt="Platform">
   <img src="https://img.shields.io/badge/Framework-.NET%209.0-512bd4?style=for-the-badge&amp;logo=dotnet&amp;logoColor=white" alt="Framework">
   <img src="https://img.shields.io/badge/Language-VB.NET%20WinForms-0f766e?style=for-the-badge&amp;logo=visualstudio&amp;logoColor=white" alt="Language">
-  <img src="https://img.shields.io/badge/Version-1.0.3-22c55e?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Version">
+  <img src="https://img.shields.io/badge/Version-1.0.7-22c55e?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Version">
   <img src="https://img.shields.io/badge/License-GPL--3.0-22c55e?style=for-the-badge&amp;logo=gnu&amp;logoColor=white" alt="License">
 </p>
 
@@ -22,7 +22,7 @@
 
 <p align="center">
   <a href="https://raw.githubusercontent.com/GingerDev0/Game-Repack-Repo/main/GingerDev_Game_Repack_Repo_Setup_v1.0.5_With_Runtime.exe">
-    <strong>Download v1.0.5 Installer</strong>
+    <strong>Download Bundled Installer</strong>
   </a>
 </p>
 
@@ -142,7 +142,7 @@
   </tr>
   <tr>
     <td><strong>Current version</strong></td>
-    <td><code>1.0.6</code></td>
+    <td><code>1.0.7</code></td>
   </tr>
   <tr>
     <td><strong>Recommended download</strong></td>
@@ -150,12 +150,12 @@
   </tr>
   <tr>
     <td><strong>Installer SHA-256</strong></td>
-    <td><code>01D04ACFC83196C313A99596E3103FAE89EC9C07BD271058FE23763AB33CE0AB</code></td>
+    <td><code>F8B9DD15C8DB4AB3CDB8E83E92CB000844E6A1FFB40DC4C338030F9B45B11157</code></td>
   </tr>
 </table>
 
 <p>
-  The installer includes the .NET 9 Desktop Runtime. After installation, open the app normally from the Start Menu or desktop shortcut.
+  The installer includes the .NET 9 Desktop Runtime and the updater. After installation, open the app normally from the Start Menu or desktop shortcut; the updater will fetch the latest main executable when a newer version is available.
 </p>
 
 <h2>License</h2>
