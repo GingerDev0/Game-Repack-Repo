@@ -8,7 +8,7 @@
   <img src="https://img.shields.io/badge/Platform-Windows-1f6feb?style=for-the-badge&amp;logo=windows&amp;logoColor=white" alt="Platform">
   <img src="https://img.shields.io/badge/Framework-.NET%209.0-512bd4?style=for-the-badge&amp;logo=dotnet&amp;logoColor=white" alt="Framework">
   <img src="https://img.shields.io/badge/Language-C%23%20WinForms-0f766e?style=for-the-badge&amp;logo=visualstudio&amp;logoColor=white" alt="Language">
-  <img src="https://img.shields.io/badge/Version-2.1.4-22c55e?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Version">
+  <img src="https://img.shields.io/badge/Version-2.1.5-22c55e?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Version">
   <img src="https://img.shields.io/badge/License-GPL--3.0-22c55e?style=for-the-badge&amp;logo=gnu&amp;logoColor=white" alt="License">
 </p>
 
@@ -21,7 +21,7 @@
 </p>
 
 <p align="center">
-  <a href="https://raw.githubusercontent.com/GingerDev0/Game-Repack-Repo/main/GingerDev_Game_Repack_Repo_Setup_v1.0.5_With_Runtime.exe">
+  <a href="https://raw.githubusercontent.com/GingerDev0/Game-Repack-Repo/main/installer/GingerDev_Game_Repack_Repo_Setup_v1.0.5_With_Runtime.exe">
     <strong>Download Bundled Installer</strong>
   </a>
 </p>
@@ -76,6 +76,27 @@
   </tr>
 </table>
 
+<h2>Repository Layout</h2>
+
+<table>
+  <tr>
+    <td><code>app\</code></td>
+    <td>Portable application files. Keep the main app and updater side-by-side here.</td>
+  </tr>
+  <tr>
+    <td><code>installer\</code></td>
+    <td>Bundled installer download with the .NET Desktop Runtime included.</td>
+  </tr>
+  <tr>
+    <td><code>etc\</code></td>
+    <td>Updater metadata, including <code>version.txt</code> and <code>update.json</code>.</td>
+  </tr>
+  <tr>
+    <td><code>docs\screenshots\</code></td>
+    <td>README preview images.</td>
+  </tr>
+</table>
+
 <h2>Runtime Files</h2>
 
 <p>The app keeps its local data in AppData:</p>
@@ -124,28 +145,28 @@
   </thead>
   <tbody>
     <tr>
-      <td><a href="https://raw.githubusercontent.com/GingerDev0/Game-Repack-Repo/main/GingerDev_Game_Repack_Repo_Setup_v1.0.5_With_Runtime.exe"><code>GingerDev_Game_Repack_Repo_Setup_v1.0.5_With_Runtime.exe</code></a></td>
+      <td><a href="https://raw.githubusercontent.com/GingerDev0/Game-Repack-Repo/main/installer/GingerDev_Game_Repack_Repo_Setup_v1.0.5_With_Runtime.exe"><code>installer/GingerDev_Game_Repack_Repo_Setup_v1.0.5_With_Runtime.exe</code></a></td>
       <td>Recommended installer. Includes the .NET 9 Desktop Runtime, installs the main app and updater, and enables automatic update checks.</td>
     </tr>
     <tr>
-      <td><a href="https://github.com/GingerDev0/Game-Repack-Repo/blob/main/GingerDev's%20Game%20Repack%20Repo.exe"><code>GingerDev's Game Repack Repo.exe</code></a></td>
+      <td><a href="https://github.com/GingerDev0/Game-Repack-Repo/blob/main/app/GingerDev%27s%20Game%20Repack%20Repo.exe"><code>app/GingerDev's Game Repack Repo.exe</code></a></td>
       <td>Portable main app only. This runs without the updater beside it, so it will not auto-update. If you download only this file, you must manually replace it when a new version is released.</td>
     </tr>
     <tr>
-      <td><code>GingerDev's Game Repack Repo Updater.exe</code></td>
+      <td><a href="https://github.com/GingerDev0/Game-Repack-Repo/blob/main/app/GingerDev%27s%20Game%20Repack%20Repo%20Updater.exe"><code>app/GingerDev's Game Repack Repo Updater.exe</code></a></td>
       <td>Updater helper used by the installed app. It checks GitHub, verifies the downloaded main executable with SHA-256, replaces the old executable, and then launches the app.</td>
     </tr>
   </tbody>
 </table>
 
 <blockquote>
-  Side note: downloading the main app and updater individually will work side-by-side as long as both files are kept in the same folder. Downloading only <code>GingerDev's Game Repack Repo.exe</code> is portable/manual-update mode and skips update checks altogether.
+  Side note: downloading the main app and updater individually will work side-by-side as long as both files are kept in the same folder. Downloading only <code>app/GingerDev's Game Repack Repo.exe</code> is portable/manual-update mode and skips update checks altogether.
 </blockquote>
 
 <h2>Update Check</h2>
 
 <p>
-  Launch <code>GingerDev's Game Repack Repo.exe</code> normally. If the updater is installed beside it, the main app immediately hands off to <code>GingerDev's Game Repack Repo Updater.exe</code> and closes.
+  Launch <code>app/GingerDev's Game Repack Repo.exe</code> normally. If <code>app/GingerDev's Game Repack Repo Updater.exe</code> is beside it, the main app immediately hands off to <code>GingerDev's Game Repack Repo Updater.exe</code> and closes.
 </p>
 
 <p>
@@ -185,11 +206,11 @@
   </tr>
   <tr>
     <td><strong>Current version</strong></td>
-    <td><code>2.1.4</code></td>
+    <td><code>2.1.5</code></td>
   </tr>
   <tr>
     <td><strong>Recommended download</strong></td>
-    <td><a href="https://raw.githubusercontent.com/GingerDev0/Game-Repack-Repo/main/GingerDev_Game_Repack_Repo_Setup_v1.0.5_With_Runtime.exe"><code>GingerDev_Game_Repack_Repo_Setup_v1.0.5_With_Runtime.exe</code></a></td>
+    <td><a href="https://raw.githubusercontent.com/GingerDev0/Game-Repack-Repo/main/installer/GingerDev_Game_Repack_Repo_Setup_v1.0.5_With_Runtime.exe"><code>installer/GingerDev_Game_Repack_Repo_Setup_v1.0.5_With_Runtime.exe</code></a></td>
   </tr>
   <tr>
     <td><strong>Installer SHA-256</strong></td>
@@ -216,3 +237,5 @@
 <p>
   Use responsibly and follow the laws that apply in your location.
 </p>
+
+

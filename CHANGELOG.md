@@ -5,11 +5,21 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Current%20Version-2.1.4-17846b?style=for-the-badge&logo=github&logoColor=white" alt="Current version">
+  <img src="https://img.shields.io/badge/Current%20Version-2.1.5-17846b?style=for-the-badge&logo=github&logoColor=white" alt="Current version">
   <img src="https://img.shields.io/badge/Runtime%20Data-%25APPDATA%25%5CGingerDev%5CGame%20Repack%20Repo-284e5a?style=for-the-badge" alt="Runtime data">
 </p>
 
 ---
+
+## Version 2.1.5
+
+![Repo](https://img.shields.io/badge/Repo-284e5a?style=flat-square)
+![Downloads](https://img.shields.io/badge/Downloads-284e5a?style=flat-square)
+![Maintenance](https://img.shields.io/badge/Maintenance-284e5a?style=flat-square)
+
+> Tidied the GitHub repository so app binaries now live in <code>app/</code> and installer files live in <code>installer/</code>.  
+> Updated the release manifest download URL to match the cleaner repo structure.  
+> Refreshed documentation so portable and installer downloads point at the new locations.
 
 ## Version 2.1.4
 
@@ -187,3 +197,4 @@
 ![Search](https://img.shields.io/badge/Search-284e5a?style=flat-square)
 
 > Initial polished release with local library caching, search, sorting, paging, cover cache, details view, and magnet actions.
+
