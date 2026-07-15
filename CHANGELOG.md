@@ -5,11 +5,21 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Current%20Version-2.1.3-17846b?style=for-the-badge&logo=github&logoColor=white" alt="Current version">
+  <img src="https://img.shields.io/badge/Current%20Version-2.1.4-17846b?style=for-the-badge&logo=github&logoColor=white" alt="Current version">
   <img src="https://img.shields.io/badge/Runtime%20Data-%25APPDATA%25%5CGingerDev%5CGame%20Repack%20Repo-284e5a?style=for-the-badge" alt="Runtime data">
 </p>
 
 ---
+
+## Version 2.1.4
+
+![Tray](https://img.shields.io/badge/Tray-284e5a?style=flat-square)
+![Updates](https://img.shields.io/badge/Updates-284e5a?style=flat-square)
+![UX](https://img.shields.io/badge/UX-284e5a?style=flat-square)
+
+> Closing the main window now minimises the app to the Windows tray instead of ending the session.  
+> Double-clicking the tray icon restores the game library.  
+> Added a tray context menu with Open, silent background Update, and Exit actions.
 
 ## Version 2.1.3
 
