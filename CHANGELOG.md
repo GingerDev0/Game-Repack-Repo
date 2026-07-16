@@ -5,11 +5,21 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Current%20Version-2.2.0-17846b?style=for-the-badge&logo=github&logoColor=white" alt="Current version">
+  <img src="https://img.shields.io/badge/Current%20Version-2.2.1-17846b?style=for-the-badge&logo=github&logoColor=white" alt="Current version">
   <img src="https://img.shields.io/badge/Runtime%20Data-%25APPDATA%25%5CGingerDev%5CGame%20Repack%20Repo-284e5a?style=for-the-badge" alt="Runtime data">
 </p>
 
 ---
+
+## Version 2.2.1
+
+![Themes](https://img.shields.io/badge/Themes-284e5a?style=flat-square)
+![Light/Dark](https://img.shields.io/badge/Light%2FDark-284e5a?style=flat-square)
+![Settings](https://img.shields.io/badge/Settings-284e5a?style=flat-square)
+
+> Added a light/dark mode toggle in Settings.  
+> Each theme family now has its own light and dark palette.  
+> Theme preferences now save the selected family and mode separately while keeping older saved theme names compatible.
 
 ## Version 2.2.0
 

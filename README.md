@@ -8,7 +8,7 @@
   <img src="https://img.shields.io/badge/Platform-Windows-1f6feb?style=for-the-badge&amp;logo=windows&amp;logoColor=white" alt="Platform">
   <img src="https://img.shields.io/badge/Framework-.NET%209.0-512bd4?style=for-the-badge&amp;logo=dotnet&amp;logoColor=white" alt="Framework">
   <img src="https://img.shields.io/badge/Language-C%23%20WinForms-0f766e?style=for-the-badge&amp;logo=visualstudio&amp;logoColor=white" alt="Language">
-  <img src="https://img.shields.io/badge/Version-2.2.0-22c55e?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Version">
+  <img src="https://img.shields.io/badge/Version-2.2.1-22c55e?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Version">
   <img src="https://img.shields.io/badge/License-GPL--3.0-22c55e?style=for-the-badge&amp;logo=gnu&amp;logoColor=white" alt="License">
 </p>
 
@@ -17,7 +17,7 @@
 </p>
 
 <p align="center">
-  GingerDev's Game Repack Repo is a standalone C# Windows Forms app with borderless Bootstrap-style tabs, ten saved theme preferences, first-run library building, local caching, cover art, sortable game cards, keyboard navigation, configurable tray support, automatic update handoff, and a compact details view.
+  GingerDev's Game Repack Repo is a standalone C# Windows Forms app with borderless Bootstrap-style tabs, saved theme families with light/dark mode, first-run library building, local caching, cover art, sortable game cards, keyboard navigation, configurable tray support, automatic update handoff, and a compact details view.
 </p>
 
 <p align="center">
@@ -103,7 +103,7 @@
 <table>
   <tr>
     <td><strong>Custom UI</strong></td>
-    <td>Borderless Bootstrap-style interface with branded chrome, theme-matched tabs, ten saved theme preferences, custom window buttons, centered windows, custom controls, and polished game cards.</td>
+    <td>Borderless Bootstrap-style interface with branded chrome, theme-matched tabs, saved theme families, light/dark mode, custom window buttons, centered windows, custom controls, and polished game cards.</td>
   </tr>
   <tr>
     <td><strong>Fast Browsing</strong></td>
