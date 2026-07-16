@@ -43,6 +43,61 @@
   </tr>
 </table>
 
+<h2>Theme Gallery</h2>
+
+<table>
+  <tr>
+    <td width="50%">
+      <h3 align="center">Bootstrap Light</h3>
+      <img src="docs/screenshots/themes/bootstrap-light.png" alt="Bootstrap Light theme">
+    </td>
+    <td width="50%">
+      <h3 align="center">Bootstrap Dark</h3>
+      <img src="docs/screenshots/themes/bootstrap-dark.png" alt="Bootstrap Dark theme">
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h3 align="center">Mint</h3>
+      <img src="docs/screenshots/themes/mint.png" alt="Mint theme">
+    </td>
+    <td width="50%">
+      <h3 align="center">Rose</h3>
+      <img src="docs/screenshots/themes/rose.png" alt="Rose theme">
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h3 align="center">Slate</h3>
+      <img src="docs/screenshots/themes/slate.png" alt="Slate theme">
+    </td>
+    <td width="50%">
+      <h3 align="center">Indigo</h3>
+      <img src="docs/screenshots/themes/indigo.png" alt="Indigo theme">
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h3 align="center">Cyan</h3>
+      <img src="docs/screenshots/themes/cyan.png" alt="Cyan theme">
+    </td>
+    <td width="50%">
+      <h3 align="center">Amber</h3>
+      <img src="docs/screenshots/themes/amber.png" alt="Amber theme">
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h3 align="center">Graphite</h3>
+      <img src="docs/screenshots/themes/graphite.png" alt="Graphite theme">
+    </td>
+    <td width="50%">
+      <h3 align="center">Forest</h3>
+      <img src="docs/screenshots/themes/forest.png" alt="Forest theme">
+    </td>
+  </tr>
+</table>
+
 <h2>Highlights</h2>
 
 <table>
