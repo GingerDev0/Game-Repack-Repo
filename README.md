@@ -8,7 +8,7 @@
   <img src="https://img.shields.io/badge/Platform-Windows-1f6feb?style=for-the-badge&amp;logo=windows&amp;logoColor=white" alt="Platform">
   <img src="https://img.shields.io/badge/Framework-.NET%209.0-512bd4?style=for-the-badge&amp;logo=dotnet&amp;logoColor=white" alt="Framework">
   <img src="https://img.shields.io/badge/Language-C%23%20WinForms-0f766e?style=for-the-badge&amp;logo=visualstudio&amp;logoColor=white" alt="Language">
-  <img src="https://img.shields.io/badge/Version-2.1.7-22c55e?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Version">
+  <img src="https://img.shields.io/badge/Version-2.1.8-22c55e?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Version">
   <img src="https://img.shields.io/badge/License-GPL--3.0-22c55e?style=for-the-badge&amp;logo=gnu&amp;logoColor=white" alt="License">
 </p>
 
@@ -21,7 +21,7 @@
 </p>
 
 <p align="center">
-  <a href="https://raw.githubusercontent.com/GingerDev0/Game-Repack-Repo/main/installer/GingerDev_Game_Repack_Repo_Setup_v1.0.5_With_Runtime.exe">
+  <a href="https://raw.githubusercontent.com/GingerDev0/Game-Repack-Repo/main/installer/GingerDev_Game_Repack_Repo_Setup_v2.1.8_With_Runtime.exe">
     <strong>Download Bundled Installer</strong>
   </a>
 </p>
@@ -60,7 +60,7 @@
   </tr>
   <tr>
     <td><strong>Local Library</strong></td>
-    <td>Builds a local AppData library on first launch, loads from <code>list.txt</code> afterward, and appends new games during update checks.</td>
+    <td>Builds a local AppData library on first launch, loads from <code>list.txt</code> afterward, backs it up before rewrites, and appends new games during update checks.</td>
   </tr>
   <tr>
     <td><strong>Tray Mode</strong></td>
@@ -126,6 +126,10 @@
   <tr>
     <td><strong>Updater handoff</strong></td>
     <td>If the updater is beside the main app, normal launches hand off to it first; updater downloads are SHA-256 verified before replacement.</td>
+  </tr>
+  <tr>
+    <td><strong>Reliability</strong></td>
+    <td>Uses safer atomic writes for local data, falls back to <code>list.backup.txt</code> if needed, retries transient image downloads, and writes diagnostics to AppData logs.</td>
   </tr>
 </table>
 
@@ -202,6 +206,10 @@
       <td>Cached cover images for faster repeat browsing. Older <code>image-cache\</code> files are still read.</td>
     </tr>
     <tr>
+      <td><code>app.log</code></td>
+      <td>Main app diagnostic log for unexpected errors and local data load issues.</td>
+    </tr>
+    <tr>
       <td><code>updater.log</code></td>
       <td>Updater error log, created only when update checks or installs fail.</td>
     </tr>
@@ -223,7 +231,7 @@
   </thead>
   <tbody>
     <tr>
-      <td><a href="https://raw.githubusercontent.com/GingerDev0/Game-Repack-Repo/main/installer/GingerDev_Game_Repack_Repo_Setup_v1.0.5_With_Runtime.exe"><code>installer/GingerDev_Game_Repack_Repo_Setup_v1.0.5_With_Runtime.exe</code></a></td>
+      <td><a href="https://raw.githubusercontent.com/GingerDev0/Game-Repack-Repo/main/installer/GingerDev_Game_Repack_Repo_Setup_v2.1.8_With_Runtime.exe"><code>installer/GingerDev_Game_Repack_Repo_Setup_v2.1.8_With_Runtime.exe</code></a></td>
       <td>Recommended installer. Includes the .NET 9 Desktop Runtime, installs the main app and updater, and enables automatic update checks.</td>
     </tr>
     <tr>
@@ -284,15 +292,15 @@
   </tr>
   <tr>
     <td><strong>Current version</strong></td>
-    <td><code>2.1.7</code></td>
+    <td><code>2.1.8</code></td>
   </tr>
   <tr>
     <td><strong>Recommended download</strong></td>
-    <td><a href="https://raw.githubusercontent.com/GingerDev0/Game-Repack-Repo/main/installer/GingerDev_Game_Repack_Repo_Setup_v1.0.5_With_Runtime.exe"><code>installer/GingerDev_Game_Repack_Repo_Setup_v1.0.5_With_Runtime.exe</code></a></td>
+    <td><a href="https://raw.githubusercontent.com/GingerDev0/Game-Repack-Repo/main/installer/GingerDev_Game_Repack_Repo_Setup_v2.1.8_With_Runtime.exe"><code>installer/GingerDev_Game_Repack_Repo_Setup_v2.1.8_With_Runtime.exe</code></a></td>
   </tr>
   <tr>
     <td><strong>Installer SHA-256</strong></td>
-    <td><code>F8B9DD15C8DB4AB3CDB8E83E92CB000844E6A1FFB40DC4C338030F9B45B11157</code></td>
+    <td><code>D75A48116BD52277BE072F8C6ADEAB8F68A9988475629FC36EC75BF9A54C5526</code></td>
   </tr>
 </table>
 

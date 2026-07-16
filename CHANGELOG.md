@@ -5,11 +5,21 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Current%20Version-2.1.7-17846b?style=for-the-badge&logo=github&logoColor=white" alt="Current version">
+  <img src="https://img.shields.io/badge/Current%20Version-2.1.8-17846b?style=for-the-badge&logo=github&logoColor=white" alt="Current version">
   <img src="https://img.shields.io/badge/Runtime%20Data-%25APPDATA%25%5CGingerDev%5CGame%20Repack%20Repo-284e5a?style=for-the-badge" alt="Runtime data">
 </p>
 
 ---
+
+## Version 2.1.8
+
+![Reliability](https://img.shields.io/badge/Reliability-284e5a?style=flat-square)
+![Installer](https://img.shields.io/badge/Installer-284e5a?style=flat-square)
+![Diagnostics](https://img.shields.io/badge/Diagnostics-284e5a?style=flat-square)
+
+> Added safer atomic writes for settings, favourites, and the local game list.  
+> The app now backs up <code>list.txt</code> before rewrites or appends and falls back to <code>list.backup.txt</code> if the main list cannot load.  
+> Added AppData <code>app.log</code> diagnostics and rebuilt the bundled installer with the current .NET 9 Desktop Runtime.
 
 ## Version 2.1.7
 
