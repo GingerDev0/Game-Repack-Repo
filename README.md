@@ -17,7 +17,7 @@
 </p>
 
 <p align="center">
-  GingerDev's Game Repack Repo is a standalone C# Windows Forms app with a custom dark UI, animated first-run splash screen, local caching, cover art, sortable game cards, tray support, and a compact details view.
+  GingerDev's Game Repack Repo is a standalone C# Windows Forms app with a custom dark UI, first-run library building, local caching, cover art, sortable game cards, keyboard navigation, tray support, automatic update handoff, and a compact details view.
 </p>
 
 <p align="center">
@@ -48,19 +48,19 @@
 <table>
   <tr>
     <td><strong>Custom UI</strong></td>
-    <td>Borderless dark theme with branded chrome, custom controls, and polished game cards.</td>
+    <td>Borderless dark theme with branded chrome, custom window buttons, centered windows, custom controls, and polished game cards.</td>
   </tr>
   <tr>
     <td><strong>Fast Browsing</strong></td>
-    <td>Search, sorting, 10-result paging, and local cover caching for repeat launches.</td>
+    <td>Search, favourites filtering, sorting, 10-result paging, keyboard navigation, and local cover caching for repeat launches.</td>
   </tr>
   <tr>
     <td><strong>Rich Details</strong></td>
-    <td>Cover image, title, original size, repack size, game description, repack features, and magnet actions.</td>
+    <td>Single-instance details window with cover image, title, original size, repack size, genre pills, game description, repack features, and magnet actions.</td>
   </tr>
   <tr>
     <td><strong>Local Library</strong></td>
-    <td>Loads from the AppData <code>list.txt</code> on startup and can append new games during update checks.</td>
+    <td>Builds a local AppData library on first launch, loads from <code>list.txt</code> afterward, and appends new games during update checks.</td>
   </tr>
   <tr>
     <td><strong>Tray Mode</strong></td>
@@ -73,6 +73,76 @@
   <tr>
     <td><strong>Standalone Release</strong></td>
     <td>The bundled installer includes the .NET 9 Desktop Runtime, the main app, and the updater.</td>
+  </tr>
+</table>
+
+<h2>Current App Features</h2>
+
+<table>
+  <tr>
+    <td><strong>Game index</strong></td>
+    <td>Scrapes repack posts, extracts title, post URL, date, cover image, magnet link, original size, repack size, genres, description, and repack features.</td>
+  </tr>
+  <tr>
+    <td><strong>Smart filtering</strong></td>
+    <td>Skips unusable entries without magnet links or repack sizes, and hides upcoming repack and updates digest posts.</td>
+  </tr>
+  <tr>
+    <td><strong>Search</strong></td>
+    <td>Searches across title, genres, description, repack features, original size, and repack size.</td>
+  </tr>
+  <tr>
+    <td><strong>Sorting</strong></td>
+    <td>Sorts by release date, title, original size, or repack size, with toggleable ascending and descending order.</td>
+  </tr>
+  <tr>
+    <td><strong>Favourites</strong></td>
+    <td>Stores favourite games locally, supports a favourites-only filter, and lets users toggle favourites from cards, details, or the context menu.</td>
+  </tr>
+  <tr>
+    <td><strong>Custom list</strong></td>
+    <td>Uses a custom-drawn list surface with large cards, cover thumbnails, size chips, genre chips, selection highlighting, mouse wheel support, and a draggable scrollbar.</td>
+  </tr>
+  <tr>
+    <td><strong>Context menu</strong></td>
+    <td>Right-click game cards to open details, copy magnet links, copy titles, or toggle favourites.</td>
+  </tr>
+  <tr>
+    <td><strong>Cover images</strong></td>
+    <td>Reads normal, lazy-loaded, and responsive image attributes; validates downloaded images before caching; and stores new cover files under AppData <code>images\</code>.</td>
+  </tr>
+  <tr>
+    <td><strong>Magnet actions</strong></td>
+    <td>Copy magnet links to the clipboard or open them with the system's registered torrent client.</td>
+  </tr>
+  <tr>
+    <td><strong>Changelog</strong></td>
+    <td>Includes an in-app rendered changelog window that shows release history and the current app version.</td>
+  </tr>
+  <tr>
+    <td><strong>Settings</strong></td>
+    <td>Persists window size, window position, search text, sort state, and favourites filter between sessions.</td>
+  </tr>
+  <tr>
+    <td><strong>Updater handoff</strong></td>
+    <td>If the updater is beside the main app, normal launches hand off to it first; updater downloads are SHA-256 verified before replacement.</td>
+  </tr>
+</table>
+
+<h2>Keyboard Shortcuts</h2>
+
+<table>
+  <tr>
+    <td><code>/</code></td>
+    <td>Focus and select the search box.</td>
+  </tr>
+  <tr>
+    <td><code>Up</code> / <code>Down</code></td>
+    <td>Move the selected game in the custom game list.</td>
+  </tr>
+  <tr>
+    <td><code>Left</code> / <code>Right</code></td>
+    <td>Go to the previous or next page.</td>
   </tr>
 </table>
 
@@ -124,8 +194,16 @@
       <td>Window size, sort state, and search preferences.</td>
     </tr>
     <tr>
+      <td><code>favorites.txt</code></td>
+      <td>Saved favourite game keys.</td>
+    </tr>
+    <tr>
       <td><code>images\</code></td>
       <td>Cached cover images for faster repeat browsing. Older <code>image-cache\</code> files are still read.</td>
+    </tr>
+    <tr>
+      <td><code>updater.log</code></td>
+      <td>Updater error log, created only when update checks or installs fail.</td>
     </tr>
   </tbody>
 </table>
