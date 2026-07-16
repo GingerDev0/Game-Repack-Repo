@@ -5,11 +5,21 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Current%20Version-2.1.9-17846b?style=for-the-badge&logo=github&logoColor=white" alt="Current version">
+  <img src="https://img.shields.io/badge/Current%20Version-2.2.0-17846b?style=for-the-badge&logo=github&logoColor=white" alt="Current version">
   <img src="https://img.shields.io/badge/Runtime%20Data-%25APPDATA%25%5CGingerDev%5CGame%20Repack%20Repo-284e5a?style=for-the-badge" alt="Runtime data">
 </p>
 
 ---
+
+## Version 2.2.0
+
+![Tabs](https://img.shields.io/badge/Tabs-284e5a?style=flat-square)
+![Themes](https://img.shields.io/badge/Themes-284e5a?style=flat-square)
+![Release](https://img.shields.io/badge/Release-284e5a?style=flat-square)
+
+> Replaced the native tab control with a borderless themed tab strip that matches the selected app theme.  
+> Expanded theme preferences to ten saved palettes: Bootstrap Light, Bootstrap Dark, Mint, Rose, Slate, Indigo, Cyan, Amber, Graphite, and Forest.  
+> Refreshed the release metadata for the 2.2.0 app build.
 
 ## Version 2.1.9
 
