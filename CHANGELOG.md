@@ -5,11 +5,21 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Current%20Version-2.2.2-17846b?style=for-the-badge&logo=github&logoColor=white" alt="Current version">
+  <img src="https://img.shields.io/badge/Current%20Version-2.2.3-17846b?style=for-the-badge&logo=github&logoColor=white" alt="Current version">
   <img src="https://img.shields.io/badge/Runtime%20Data-%25APPDATA%25%5CGingerDev%5CGame%20Repack%20Repo-284e5a?style=for-the-badge" alt="Runtime data">
 </p>
 
 ---
+
+## Version 2.2.3
+
+![Tray](https://img.shields.io/badge/Tray-284e5a?style=flat-square)
+![Themes](https://img.shields.io/badge/Themes-284e5a?style=flat-square)
+![UI](https://img.shields.io/badge/UI-284e5a?style=flat-square)
+
+> Added theme family and light/dark mode options to the system tray menu.  
+> Removed custom theme editing and simplified Settings back to built-in theme preferences.  
+> Added compact icons to tabs, actions, Settings controls, and tray commands.
 
 ## Version 2.2.2
 
