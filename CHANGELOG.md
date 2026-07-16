@@ -5,11 +5,21 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Current%20Version-2.1.5-17846b?style=for-the-badge&logo=github&logoColor=white" alt="Current version">
+  <img src="https://img.shields.io/badge/Current%20Version-2.1.6-17846b?style=for-the-badge&logo=github&logoColor=white" alt="Current version">
   <img src="https://img.shields.io/badge/Runtime%20Data-%25APPDATA%25%5CGingerDev%5CGame%20Repack%20Repo-284e5a?style=for-the-badge" alt="Runtime data">
 </p>
 
 ---
+
+## Version 2.1.6
+
+![Covers](https://img.shields.io/badge/Covers-284e5a?style=flat-square)
+![Cache](https://img.shields.io/badge/Cache-284e5a?style=flat-square)
+![Scraper](https://img.shields.io/badge/Scraper-284e5a?style=flat-square)
+
+> Fixed cover image collection for posts that use lazy-loaded or responsive image attributes.  
+> Moved newly cached cover images into the AppData <code>images/</code> folder while keeping older <code>image-cache/</code> files readable.  
+> Hardened image downloads so only valid image responses are cached and displayed.
 
 ## Version 2.1.5
 

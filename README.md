@@ -8,7 +8,7 @@
   <img src="https://img.shields.io/badge/Platform-Windows-1f6feb?style=for-the-badge&amp;logo=windows&amp;logoColor=white" alt="Platform">
   <img src="https://img.shields.io/badge/Framework-.NET%209.0-512bd4?style=for-the-badge&amp;logo=dotnet&amp;logoColor=white" alt="Framework">
   <img src="https://img.shields.io/badge/Language-C%23%20WinForms-0f766e?style=for-the-badge&amp;logo=visualstudio&amp;logoColor=white" alt="Language">
-  <img src="https://img.shields.io/badge/Version-2.1.5-22c55e?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Version">
+  <img src="https://img.shields.io/badge/Version-2.1.6-22c55e?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Version">
   <img src="https://img.shields.io/badge/License-GPL--3.0-22c55e?style=for-the-badge&amp;logo=gnu&amp;logoColor=white" alt="License">
 </p>
 
@@ -52,7 +52,7 @@
   </tr>
   <tr>
     <td><strong>Fast Browsing</strong></td>
-    <td>Search, sorting, 20-result paging, and local cover caching for repeat launches.</td>
+    <td>Search, sorting, 10-result paging, and local cover caching for repeat launches.</td>
   </tr>
   <tr>
     <td><strong>Rich Details</strong></td>
@@ -124,8 +124,8 @@
       <td>Window size, sort state, and search preferences.</td>
     </tr>
     <tr>
-      <td><code>image-cache\</code></td>
-      <td>Cached cover images for faster repeat browsing.</td>
+      <td><code>images\</code></td>
+      <td>Cached cover images for faster repeat browsing. Older <code>image-cache\</code> files are still read.</td>
     </tr>
   </tbody>
 </table>
@@ -206,7 +206,7 @@
   </tr>
   <tr>
     <td><strong>Current version</strong></td>
-    <td><code>2.1.5</code></td>
+    <td><code>2.1.6</code></td>
   </tr>
   <tr>
     <td><strong>Recommended download</strong></td>
