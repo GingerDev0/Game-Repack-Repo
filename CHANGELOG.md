@@ -5,11 +5,21 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Current%20Version-2.2.1-17846b?style=for-the-badge&logo=github&logoColor=white" alt="Current version">
+  <img src="https://img.shields.io/badge/Current%20Version-2.2.2-17846b?style=for-the-badge&logo=github&logoColor=white" alt="Current version">
   <img src="https://img.shields.io/badge/Runtime%20Data-%25APPDATA%25%5CGingerDev%5CGame%20Repack%20Repo-284e5a?style=for-the-badge" alt="Runtime data">
 </p>
 
 ---
+
+## Version 2.2.2
+
+![Fonts](https://img.shields.io/badge/Fonts-284e5a?style=flat-square)
+![Themes](https://img.shields.io/badge/Themes-284e5a?style=flat-square)
+![Gallery](https://img.shields.io/badge/Gallery-284e5a?style=flat-square)
+
+> Bundled theme fonts now load from the published app so themed typography works without installing fonts.  
+> Added game-inspired theme families including Cyberpunk, Minecraft, DOOM, Halo, Fallout, and Mario.  
+> Refreshed the theme gallery screenshots for every theme family in both Light and Dark modes.
 
 ## Version 2.2.1
 

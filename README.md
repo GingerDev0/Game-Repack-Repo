@@ -8,7 +8,7 @@
   <img src="https://img.shields.io/badge/Platform-Windows-1f6feb?style=for-the-badge&amp;logo=windows&amp;logoColor=white" alt="Platform">
   <img src="https://img.shields.io/badge/Framework-.NET%209.0-512bd4?style=for-the-badge&amp;logo=dotnet&amp;logoColor=white" alt="Framework">
   <img src="https://img.shields.io/badge/Language-C%23%20WinForms-0f766e?style=for-the-badge&amp;logo=visualstudio&amp;logoColor=white" alt="Language">
-  <img src="https://img.shields.io/badge/Version-2.2.1-22c55e?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Version">
+  <img src="https://img.shields.io/badge/Version-2.2.2-22c55e?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Version">
   <img src="https://img.shields.io/badge/License-GPL--3.0-22c55e?style=for-the-badge&amp;logo=gnu&amp;logoColor=white" alt="License">
 </p>
 
@@ -17,7 +17,7 @@
 </p>
 
 <p align="center">
-  GingerDev's Game Repack Repo is a standalone C# Windows Forms app with borderless Bootstrap-style tabs, saved theme families with light/dark mode, first-run library building, local caching, cover art, sortable game cards, keyboard navigation, configurable tray support, automatic update handoff, and a compact details view.
+  GingerDev's Game Repack Repo is a standalone C# Windows Forms app with borderless Bootstrap-style tabs, saved theme families with light/dark mode, bundled game-inspired fonts, first-run library building, local caching, cover art, sortable game cards, keyboard navigation, configurable tray support, automatic update handoff, and a compact details view.
 </p>
 
 <p align="center">
@@ -46,7 +46,7 @@
 <h2>Themes</h2>
 
 <p>
-  Every theme family includes Light and Dark modes. See the full screenshot gallery in
+  Every theme family includes Light and Dark modes, with game-inspired palettes like Cyberpunk, Minecraft, DOOM, Halo, Fallout, and Mario. See the full screenshot gallery in
   <a href="THEMES.md"><strong>THEMES.md</strong></a>.
 </p>
 
@@ -55,7 +55,7 @@
 <table>
   <tr>
     <td><strong>Custom UI</strong></td>
-    <td>Borderless Bootstrap-style interface with branded chrome, theme-matched tabs, saved theme families, light/dark mode, custom window buttons, centered windows, custom controls, and polished game cards.</td>
+    <td>Borderless Bootstrap-style interface with branded chrome, theme-matched tabs, saved theme families, light/dark mode, bundled theme fonts, custom window buttons, centered windows, custom controls, and polished game cards.</td>
   </tr>
   <tr>
     <td><strong>Fast Browsing</strong></td>
@@ -299,7 +299,7 @@
   </tr>
   <tr>
     <td><strong>Current version</strong></td>
-    <td><code>2.1.8</code></td>
+    <td><code>2.2.2</code></td>
   </tr>
   <tr>
     <td><strong>Recommended download</strong></td>
