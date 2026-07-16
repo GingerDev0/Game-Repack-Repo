@@ -5,11 +5,21 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Current%20Version-2.1.6-17846b?style=for-the-badge&logo=github&logoColor=white" alt="Current version">
+  <img src="https://img.shields.io/badge/Current%20Version-2.1.7-17846b?style=for-the-badge&logo=github&logoColor=white" alt="Current version">
   <img src="https://img.shields.io/badge/Runtime%20Data-%25APPDATA%25%5CGingerDev%5CGame%20Repack%20Repo-284e5a?style=for-the-badge" alt="Runtime data">
 </p>
 
 ---
+
+## Version 2.1.7
+
+![Keyboard](https://img.shields.io/badge/Keyboard-284e5a?style=flat-square)
+![Navigation](https://img.shields.io/badge/Navigation-284e5a?style=flat-square)
+![UX](https://img.shields.io/badge/UX-284e5a?style=flat-square)
+
+> Added <code>/</code> as a quick shortcut to focus and select the search box.  
+> Added Up and Down arrow navigation for the custom game list.  
+> Added Left and Right arrow shortcuts for previous and next page navigation.
 
 ## Version 2.1.6
 
