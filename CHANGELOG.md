@@ -5,11 +5,21 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Current%20Version-2.2.3-17846b?style=for-the-badge&logo=github&logoColor=white" alt="Current version">
+  <img src="https://img.shields.io/badge/Current%20Version-2.2.4-17846b?style=for-the-badge&logo=github&logoColor=white" alt="Current version">
   <img src="https://img.shields.io/badge/Runtime%20Data-%25APPDATA%25%5CGingerDev%5CGame%20Repack%20Repo-284e5a?style=for-the-badge" alt="Runtime data">
 </p>
 
 ---
+
+## Version 2.2.4
+
+![Hotfix](https://img.shields.io/badge/Hotfix-284e5a?style=flat-square)
+![Updater](https://img.shields.io/badge/Updater-284e5a?style=flat-square)
+![Launch](https://img.shields.io/badge/Launch-284e5a?style=flat-square)
+
+> Published the main app as a single-file executable so updater installs replace the complete app payload.  
+> Fixed the updated main executable failing to launch when only the EXE was replaced by the updater.  
+> Kept the updater behavior unchanged.
 
 ## Version 2.2.3
 
