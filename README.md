@@ -8,7 +8,7 @@
   <img src="https://img.shields.io/badge/Platform-Windows-1f6feb?style=for-the-badge&amp;logo=windows&amp;logoColor=white" alt="Platform">
   <img src="https://img.shields.io/badge/Framework-.NET%209.0-512bd4?style=for-the-badge&amp;logo=dotnet&amp;logoColor=white" alt="Framework">
   <img src="https://img.shields.io/badge/Language-C%23%20WinForms-0f766e?style=for-the-badge&amp;logo=visualstudio&amp;logoColor=white" alt="Language">
-  <img src="https://img.shields.io/badge/Version-2.2.4-22c55e?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Version">
+  <img src="https://img.shields.io/badge/Version-2.2.5-22c55e?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Version">
   <img src="https://img.shields.io/badge/License-GPL--3.0-22c55e?style=for-the-badge&amp;logo=gnu&amp;logoColor=white" alt="License">
 </p>
 
@@ -128,7 +128,7 @@
   </tr>
   <tr>
     <td><strong>Settings</strong></td>
-    <td>Persists window size, window position, search text, sort state, and favourites filter between sessions.</td>
+    <td>Persists window size, window position, search text, sort state, favourites filter, and the chosen games-per-page setting between sessions.</td>
   </tr>
   <tr>
     <td><strong>Updater handoff</strong></td>
@@ -299,7 +299,7 @@
   </tr>
   <tr>
     <td><strong>Current version</strong></td>
-    <td><code>2.2.4</code></td>
+    <td><code>2.2.5</code></td>
   </tr>
   <tr>
     <td><strong>Recommended download</strong></td>

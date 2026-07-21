@@ -5,11 +5,21 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Current%20Version-2.2.4-17846b?style=for-the-badge&logo=github&logoColor=white" alt="Current version">
+  <img src="https://img.shields.io/badge/Current%20Version-2.2.5-17846b?style=for-the-badge&logo=github&logoColor=white" alt="Current version">
   <img src="https://img.shields.io/badge/Runtime%20Data-%25APPDATA%25%5CGingerDev%5CGame%20Repack%20Repo-284e5a?style=for-the-badge" alt="Runtime data">
 </p>
 
 ---
+
+## Version 2.2.5
+
+![Settings](https://img.shields.io/badge/Settings-284e5a?style=flat-square)
+![Paging](https://img.shields.io/badge/Paging-284e5a?style=flat-square)
+![Library](https://img.shields.io/badge/Library-284e5a?style=flat-square)
+
+> Added a Games per page setting with 5, 10, 25, and 50 game display options.  
+> Saved the selected page size with the rest of the app settings.  
+> Updated paging calculations so the library view respects the chosen page size.
 
 ## Version 2.2.4
 
