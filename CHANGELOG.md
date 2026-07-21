@@ -5,11 +5,21 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Current%20Version-3.0.0-17846b?style=for-the-badge&logo=github&logoColor=white" alt="Current version">
+  <img src="https://img.shields.io/badge/Current%20Version-3.0.1-17846b?style=for-the-badge&logo=github&logoColor=white" alt="Current version">
   <img src="https://img.shields.io/badge/Runtime%20Data-%25APPDATA%25%5CGingerDev%5CGame%20Repack%20Repo-284e5a?style=for-the-badge" alt="Runtime data">
 </p>
 
 ---
+
+## Version 3.0.1
+
+![Hotfix](https://img.shields.io/badge/Hotfix-284e5a?style=flat-square)
+![Library](https://img.shields.io/badge/Library-284e5a?style=flat-square)
+![Migration](https://img.shields.io/badge/Migration-284e5a?style=flat-square)
+
+> Restored full-library rebuild behavior so migrated libraries keep the expected game count.  
+> Added automatic repair for short 3.0.0 rebuilds when a larger legacy backup is available.  
+> Kept recent multi-source checks active without limiting the main library rebuild.
 
 ## Version 3.0.0
 
