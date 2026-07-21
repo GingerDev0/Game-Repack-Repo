@@ -8,7 +8,7 @@
   <img src="https://img.shields.io/badge/Platform-Windows-1f6feb?style=for-the-badge&amp;logo=windows&amp;logoColor=white" alt="Platform">
   <img src="https://img.shields.io/badge/Framework-.NET%209.0-512bd4?style=for-the-badge&amp;logo=dotnet&amp;logoColor=white" alt="Framework">
   <img src="https://img.shields.io/badge/Language-C%23%20WinForms-0f766e?style=for-the-badge&amp;logo=visualstudio&amp;logoColor=white" alt="Language">
-  <img src="https://img.shields.io/badge/Version-2.2.5-22c55e?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Version">
+  <img src="https://img.shields.io/badge/Version-3.0.0-22c55e?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Version">
   <img src="https://img.shields.io/badge/License-GPL--3.0-22c55e?style=for-the-badge&amp;logo=gnu&amp;logoColor=white" alt="License">
 </p>
 
@@ -88,11 +88,11 @@
 <table>
   <tr>
     <td><strong>Game index</strong></td>
-    <td>Scrapes repack posts, extracts title, post URL, date, cover image, magnet link, original size, repack size, genres, description, and repack features.</td>
+    <td>Checks multiple game sources together and extracts title, date, cover image, magnet link, size, genres, description, and release notes into one combined library.</td>
   </tr>
   <tr>
     <td><strong>Smart filtering</strong></td>
-    <td>Skips unusable entries without magnet links or repack sizes, and hides upcoming repack and updates digest posts.</td>
+    <td>Skips unusable entries without magnet links or repack sizes, ignores direct-download and torrent-file links, and hides upcoming repack and updates digest posts.</td>
   </tr>
   <tr>
     <td><strong>Search</strong></td>
@@ -299,7 +299,7 @@
   </tr>
   <tr>
     <td><strong>Current version</strong></td>
-    <td><code>2.2.5</code></td>
+    <td><code>3.0.0</code></td>
   </tr>
   <tr>
     <td><strong>Recommended download</strong></td>

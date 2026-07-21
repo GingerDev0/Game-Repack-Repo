@@ -5,11 +5,21 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Current%20Version-2.2.5-17846b?style=for-the-badge&logo=github&logoColor=white" alt="Current version">
+  <img src="https://img.shields.io/badge/Current%20Version-3.0.0-17846b?style=for-the-badge&logo=github&logoColor=white" alt="Current version">
   <img src="https://img.shields.io/badge/Runtime%20Data-%25APPDATA%25%5CGingerDev%5CGame%20Repack%20Repo-284e5a?style=for-the-badge" alt="Runtime data">
 </p>
 
 ---
+
+## Version 3.0.0
+
+![Library](https://img.shields.io/badge/Library-284e5a?style=flat-square)
+![Sources](https://img.shields.io/badge/Sources-284e5a?style=flat-square)
+![Major](https://img.shields.io/badge/Major-284e5a?style=flat-square)
+
+> Reworked the updater around multiple game sources running together.  
+> Added magnet-only parsing so direct-download and torrent-file links are ignored.  
+> Added hidden source markers and one-time legacy cache handling for source-aware library rebuilds.
 
 ## Version 2.2.5
 
